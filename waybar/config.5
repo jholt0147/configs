@@ -1,0 +1,108 @@
+{
+	"layer": "normal",
+	"output": "eDP-1",
+//	"position": "top",
+    "height": 32,
+
+
+    "modules-left": ["sway/mode", "sway/scratchpad", "network", "battery", "backlight", "temperature"],
+    "modules-center": ["sway/window"],
+    "modules-right": ["cpu","memory", "disk", "wireplumber", "clock", "tray"],
+
+    "network": {
+        "interface": "wlan0",
+        "format-wifi": "  WiFi-On",
+        "format-disconnected": "Disconnected ",
+        "interval": 60
+	},
+    "battery": {
+        "bat": "sbs-12-000b",
+        "states": {
+              "full": 99,
+              "good": 98,
+              "normal": 98,
+              "warning": 20,
+              "critical": 20
+	},
+
+        "format": "{icon} {capacity}%",
+        "format-good": "{icon} {capacity}%",
+        "format-full": "  {capacity}%",
+        "format-icons": ["", "", "", "", ""],
+        "format-plugged": " {capacity} %",
+        "interval": 150
+	},
+
+   "tray": {
+	"icon-size": 18,
+	"spacing": 15
+	},
+   "pulseaudio": {
+        "format": " {icon} {volume}% ",
+        "format-bluetooth": "  {volume}% ",
+        "format-muted":"  Mute ",
+        "interval": 60,
+        "format-icons": {
+        "default": [""]
+		},
+	},
+   "clock": {
+        "format": "{:%a %b %d :%I:%M:%S %p %Z}",
+	"interval": 1,
+	},
+
+
+   "sway/window": {
+        "format": "{}",
+        "max-length": 150,
+	"rewrite": {
+		"(.*) - bash": "> [$1]",
+		},
+	},
+
+   "sway/workspaces": {
+        "disable-scroll": true,
+        "disable-markup": true,
+        "format": "{index}" 
+	},
+   "sway/scratchpad": {
+        "format": "{icon}  {count}",
+        "show-empty": false,
+        "format-icons": ["", ""],
+        "tooltip": true,
+        "tooltip-format": "{app}: {title}"
+    },
+
+    "keyboard-state": {
+        "numlock": true,
+        "capslock": true,
+        "format": "{name}  {icon}",
+        "format-icons": {
+            "locked": "",
+            "unlocked": ""
+        }
+    },
+    "cpu": {
+	"format": "  {usage}% ",
+    },
+    "backlight": {
+	"device": "backlight_lcd0",
+	"format": "{icon} {percent}%",
+	"format-icons": "",
+    },
+    "memory": {
+        "format": "  {}% "
+    },
+    "disk": { 
+	"path": "/",
+	"interval": 30,
+	"format": "  {percentage_used}% ",
+	},
+   "temperature":{
+	"format": " {temperatureC}°C"
+    },
+    "wireplumber": {
+	"format": " {volume}%",
+	"format-muted": "Muted",
+    },
+}

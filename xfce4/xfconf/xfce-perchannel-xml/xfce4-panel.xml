@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-panel" version="1.0">
+  <property name="configver" type="empty"/>
+  <property name="panels" type="array">
+    <value type="int" value="1"/>
+    <property name="dark-mode" type="bool" value="true"/>
+    <property name="panel-1" type="empty">
+      <property name="position" type="string" value="p=8;x=683;y=754"/>
+      <property name="length" type="empty"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="icon-size" type="empty"/>
+      <property name="size" type="uint" value="24"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="1"/>
+        <value type="int" value="2"/>
+        <value type="int" value="5"/>
+        <value type="int" value="6"/>
+        <value type="int" value="8"/>
+        <value type="int" value="9"/>
+        <value type="int" value="10"/>
+        <value type="int" value="23"/>
+        <value type="int" value="11"/>
+        <value type="int" value="12"/>
+        <value type="int" value="13"/>
+        <value type="int" value="14"/>
+      </property>
+      <property name="disable-struts" type="bool" value="false"/>
+    </property>
+    <property name="panel-2" type="empty">
+      <property name="autohide-behavior" type="empty"/>
+      <property name="position" type="empty"/>
+      <property name="position-locked" type="empty"/>
+      <property name="size" type="empty"/>
+      <property name="plugin-ids" type="empty"/>
+    </property>
+  </property>
+  <property name="plugins" type="empty">
+    <property name="plugin-1" type="empty">
+      <property name="button-title" type="string" value="Start"/>
+    </property>
+    <property name="plugin-2" type="empty">
+      <property name="grouping" type="empty"/>
+    </property>
+    <property name="plugin-3" type="empty">
+      <property name="expand" type="empty"/>
+      <property name="style" type="empty"/>
+    </property>
+    <property name="plugin-4" type="empty"/>
+    <property name="plugin-5" type="empty">
+      <property name="style" type="empty"/>
+      <property name="expand" type="bool" value="true"/>
+    </property>
+    <property name="plugin-6" type="empty">
+      <property name="square-icons" type="empty"/>
+      <property name="known-legacy-items" type="array">
+        <value type="string" value="wi-fi network connection “tmobile-de28” active: tmobile-de28 (85%)"/>
+        <value type="string" value="wi-fi network connection “tmobile-de28” active: tmobile-de28 (87%)"/>
+        <value type="string" value="wi-fi network connection “tmobile-de28” active: tmobile-de28 (88%)"/>
+        <value type="string" value="wi-fi network connection “tmobile-de28” active: tmobile-de28 (90%)"/>
+        <value type="string" value="wi-fi network connection “tmobile-de28” active: tmobile-de28 (89%)"/>
+        <value type="string" value="wi-fi network connection “tmobile-de28” active: tmobile-de28 (72%)"/>
+        <value type="string" value="wi-fi network connection “tmobile-de28” active: tmobile-de28 (69%)"/>
+        <value type="string" value="networkmanager applet"/>
+        <value type="string" value="wi-fi network connection “tmobile-de28” active: tmobile-de28 (67%)"/>
+        <value type="string" value="wi-fi network connection “tmobile-de28” active: tmobile-de28 (68%)"/>
+        <value type="string" value="blueman-tray"/>
+        <value type="string" value="onboard"/>
+        <value type="string" value="blueman"/>
+        <value type="string" value="no network connection"/>
+      </property>
+      <property name="known-items" type="array">
+        <value type="string" value="blueman"/>
+      </property>
+    </property>
+    <property name="plugin-8" type="empty">
+      <property name="enable-keyboard-shortcuts" type="empty"/>
+      <property name="show-notifications" type="empty"/>
+      <property name="mpris-players" type="string" value="qutebrowser.instance1683;qutebrowser.instance18503;qutebrowser.instance3079;qutebrowser.instance6374"/>
+    </property>
+    <property name="plugin-9" type="empty"/>
+    <property name="plugin-10" type="empty"/>
+    <property name="plugin-11" type="empty">
+      <property name="style" type="empty"/>
+    </property>
+    <property name="plugin-12" type="empty"/>
+    <property name="plugin-13" type="empty">
+      <property name="style" type="empty"/>
+    </property>
+    <property name="plugin-14" type="empty"/>
+    <property name="plugin-15" type="empty"/>
+    <property name="plugin-16" type="empty"/>
+    <property name="plugin-17" type="empty">
+      <property name="items" type="empty"/>
+    </property>
+    <property name="plugin-18" type="empty">
+      <property name="items" type="empty"/>
+    </property>
+    <property name="plugin-19" type="empty">
+      <property name="items" type="empty"/>
+    </property>
+    <property name="plugin-20" type="empty">
+      <property name="items" type="empty"/>
+    </property>
+    <property name="plugin-21" type="empty"/>
+    <property name="plugin-22" type="empty">
+      <property name="base-directory" type="empty"/>
+    </property>
+    <property name="plugin-23" type="empty">
+      <property name="timeout" type="empty"/>
+      <property name="timeout-seconds" type="empty"/>
+      <property name="system-monitor-command" type="empty"/>
+      <property name="cpu" type="empty">
+        <property name="color" type="empty"/>
+        <property name="label" type="empty"/>
+      </property>
+      <property name="memory" type="empty">
+        <property name="enabled" type="empty"/>
+      </property>
+      <property name="network" type="empty">
+        <property name="enabled" type="empty"/>
+      </property>
+      <property name="swap" type="empty">
+        <property name="enabled" type="empty"/>
+      </property>
+      <property name="uptime" type="empty">
+        <property name="enabled" type="empty"/>
+      </property>
+    </property>
+  </property>
+</channel>

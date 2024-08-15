@@ -1,0 +1,6 @@
+2024/08/15-14:43:05.029 a671 Reusing MANIFEST /home/linux/.config/ArmCord/Local Storage/leveldb/MANIFEST-000001
+2024/08/15-14:43:05.043 a671 Recovering log #3
+2024/08/15-14:43:05.043 a671 Reusing old log /home/linux/.config/ArmCord/Local Storage/leveldb/000003.log 
+2024/08/15-15:30:58.230 a673 Level-0 table #5: started
+2024/08/15-15:30:58.241 a673 Level-0 table #5: 19096 bytes OK
+2024/08/15-15:30:58.252 a673 Delete type=0 #3
