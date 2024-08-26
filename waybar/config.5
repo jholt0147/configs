@@ -11,9 +11,10 @@
 
     "network": {
         "interface": "wlan0",
-        "format-wifi": "  WiFi-On",
+        "format-wifi": "  {essid} ",
         "format-disconnected": "Disconnected ",
-        "interval": 60
+        "interval": 60,
+	"on-click": "nm-connection-editor"
 	},
     "battery": {
         "bat": "sbs-12-000b",
@@ -22,15 +23,18 @@
               "good": 98,
               "normal": 98,
               "warning": 20,
-              "critical": 20
+              "critical": 10
+	},
+	"tooltip": {
+	     "format": "{time}",
 	},
 
         "format": "{icon} {capacity}%",
         "format-good": "{icon} {capacity}%",
         "format-full": "  {capacity}%",
         "format-icons": ["", "", "", "", ""],
-        "format-plugged": " {capacity} %",
-        "interval": 150
+        "format-charging": " {capacity}%",
+        "interval": 1
 	},
 
    "tray": {
@@ -42,12 +46,13 @@
         "format-bluetooth": "  {volume}% ",
         "format-muted":"  Mute ",
         "interval": 60,
+	"on-click": "pavucontrol",
         "format-icons": {
         "default": [""]
 		},
 	},
    "clock": {
-        "format": "{:%a %b %d :%I:%M:%S %p %Z}",
+        "format": "{:%a %b %d %I:%M:%S %p %Z}",
 	"interval": 1,
 	},
 
